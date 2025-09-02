@@ -1,0 +1,50 @@
+{
+    "jet_fighter": {
+      "name": "제트 전투기",
+      "mass": 10000,
+      "wing_area": 50,
+      "max_thrust": 80000,
+      "fuel_capacity": 3000,
+      "fuel_flow_rate": 1.5,
+      "CL0": 0.15,
+      "CL_alpha": 4.5,
+      "CD0": 0.02,
+      "K": 0.05,
+      "max_speed": 300,
+      "min_speed": 70,
+      "service_ceiling": 15000,
+      "max_load_factor": 9.0
+    },
+    "transport_aircraft": {
+      "name": "수송기",
+      "mass": 50000,
+      "wing_area": 150,
+      "max_thrust": 200000,
+      "fuel_capacity": 15000,
+      "fuel_flow_rate": 2.0,
+      "CL0": 0.2,
+      "CL_alpha": 5.0,
+      "CD0": 0.025,
+      "K": 0.04,
+      "max_speed": 250,
+      "min_speed": 60,
+      "service_ceiling": 12000,
+      "max_load_factor": 2.5
+    },
+    "light_aircraft": {
+      "name": "경항공기",
+      "mass": 1000,
+      "wing_area": 15,
+      "max_thrust": 3000,
+      "fuel_capacity": 200,
+      "fuel_flow_rate": 0.05,
+      "CL0": 0.3,
+      "CL_alpha": 5.5,
+      "CD0": 0.03,
+      "K": 0.06,
+      "max_speed": 80,
+      "min_speed": 25,
+      "service_ceiling": 5000,
+      "max_load_factor": 3.8
+    }
+  }
